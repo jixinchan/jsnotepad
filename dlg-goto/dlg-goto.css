@@ -22,7 +22,7 @@ body,html {
   height:160px;
   margin:150px auto;
   width:292px;
-
+  border:1px solid #0f7fd6;
 }
 
 .notepad-goto-dlg .dialogbox .titlebar{

@@ -1,0 +1,96 @@
+*{
+  margin:0;
+  padding:0;
+  font-size:14px;
+}
+body,html {
+  height:100%;
+  width:100%;
+}
+
+.notepad-search-dlg{
+  height:100%;
+  left:0;
+  position:absolute;
+  top:0;
+  width:100%;
+  z-index:10;
+}
+
+.notepad-search-dlg .dialogbox{
+  background:#eee;
+  border:1px solid ;
+  height:152px;
+  margin:150px auto;
+  width:397px;
+  border:1px solid #0f7fd6;
+}
+
+.notepad-search-dlg .dialogbox .titlebar{
+  background:#fff;
+  height:25px;
+  position:relative;
+  width:100%;
+}
+
+.notepad-search-dlg .dialogbox .titlebar .title{
+  position:absolute;
+  left:5px;
+  top:2px;
+}
+
+.notepad-search-dlg .dialogbox .titlebar .btn-close{
+  cursor:pointer;
+  height:30px;
+  position:absolute;
+  right:0px;
+  text-align:center;
+  top:0px;
+  width:30px;
+}
+
+.notepad-search-dlg .dialogbox .titlebar .btn-close:hover{
+  background:red;
+  color:#fff;
+}
+
+.notepad-search-dlg .dialogbox .content{
+  width:96%;
+  margin:2%;
+  background:#f1f1f1;
+  position:relative;
+}
+.content .checkbox{
+  position:absolute;
+  left:3px;
+  top:60px;
+}
+.content .txt{
+  width:185px;
+}
+.content span{
+  position:absolute;
+  left:16px;
+  top:60px;
+}
+fieldset{
+  width:145px;
+  height:40px;
+  display:inline-block;
+  position:absolute;
+  left:120px;
+  top:40px;
+}
+
+.notepad-search-dlg .dialogbox .content .btn-next{
+  width:90px;
+  position:absolute;
+  right:10px;
+}
+
+.notepad-search-dlg .dialogbox .content .btn-cancel{
+  width:90px;
+  position:absolute;
+  right:10px;
+  top:60px;
+}

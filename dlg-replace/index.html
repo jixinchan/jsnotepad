@@ -3,21 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <title>goto dialog test page</title>
-  <link rel="stylesheet" href="dlg-goto.css">
+  <link rel="stylesheet" href="dlg-replace.css">
   <link rel="icon" href="https://i.wangding.in/favicon.ico" sizes="48x48" type="image/png">
 </head>
 <body>
-<input class="popbtn" type="button" value="弹出转到对话框" />
+<input class="popbtn" type="button" value="弹出替换对话框" />
 
 <script src="//apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="main.js"></script>
+<script src="dlg-replace.js"></script>
 <script src="//cdn.bootcss.com/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <script>
 $(function(){
   var $btnpop=$('.popbtn');
 
   $btnpop.click(function(){
-    $dlgGoto.show();
+    $dlgReplace.show();
   })
 })
 </script>

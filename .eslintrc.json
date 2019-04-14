@@ -28,6 +28,7 @@
     "no-console": [
       "error",
       { "allow": ["error"]  }
-    ]
+    ],
+    "no-unused-vars":0
   }
 }

@@ -1,23 +1,27 @@
-/*exported $dlgGoto*/
-var $dlgGoto = (function(){
+/*exported $dlgReplace*/
+var $dlgReplace = (function(){
   var DOM=''
-    +'<div class="notepad-goto-dlg">'
+    +'<div class="notepad-search-dlg">'
     +'  <div class="dialogbox">'
     +'    <div class="titlebar">'
-    +'      <p class="title">转到指定行</p>'
+    +'      <p class="title">查找</p>'
     +'      <span class="btn-close">×</span>'
     +'    </div>'
     +'    <div class="content">'
-    +'      <label for="">行号(L):</label>'
-    +'      <input type="text" class="line-num"/>'
-    +'      <input type="button" value="转到" class="btn-goto"/>'
+    +'      <label for="">查找内容(N):</label>'
+    +'      <input type="text"/ class="txt">'
+    +'      <input type="button" value="查找下一个" class="btn-next" disabled/>'
+    +'      <label for="">替换为(P):</label>'
+    +'      <input type="text"/ class="txt">'
+    +'      <input type="button" value="替换" disabled/>'
+    +'      <input type="checkbox" class="checkbox"><span>区分大小写(C)</span>'
+    +'      <input type="button" value="全部替换" class="btn-rep" disabled/>'
     +'      <input type="button" value="取消" class="btn-cancel"/>'
     +'    </div>'
     +'  </div>'
     +'</div>';
   
   var $dlg = $(DOM),
-      $btnGoto = $dlg.find('.btn-goto'),
       $btnCancel = $dlg.find('.btn-cancel'),
       $btnClose = $dlg.find('.btn-close');
 
@@ -25,7 +29,6 @@ var $dlgGoto = (function(){
     $('body').append($dlg);
    
     $dlg.find('.dialogbox').draggable({handle:$dlg.find('.titlebar')});
-    $btnGoto.click(function(){$dlg.remove();});
     $btnClose.click(function(){$dlg.remove();});
     $btnCancel.click(function(){$dlg.remove();});
   }

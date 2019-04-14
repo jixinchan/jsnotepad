@@ -1,0 +1,94 @@
+*{
+  margin:0;
+  padding:0;
+  font-size:14px;
+}
+body,html {
+  height:100%;
+  width:100%;
+}
+
+.notepad-search-dlg{
+  height:100%;
+  left:0;
+  position:absolute;
+  top:0;
+  width:100%;
+  z-index:10;
+}
+
+.notepad-search-dlg .dialogbox{
+  background:#eee;
+  border:1px solid ;
+  height:152px;
+  margin:150px auto;
+  width:397px;
+  border:1px solid #0f7fd6;
+}
+
+.notepad-search-dlg .dialogbox .titlebar{
+  background:#fff;
+  height:25px;
+  position:relative;
+  width:100%;
+}
+
+.notepad-search-dlg .dialogbox .titlebar .title{
+  position:absolute;
+  left:5px;
+  top:2px;
+}
+
+.notepad-search-dlg .dialogbox .titlebar .btn-close{
+  cursor:pointer;
+  height:30px;
+  position:absolute;
+  right:0px;
+  text-align:center;
+  top:0px;
+  width:30px;
+}
+
+.notepad-search-dlg .dialogbox .titlebar .btn-close:hover{
+  background:red;
+  color:#fff;
+}
+
+.notepad-search-dlg .dialogbox .content{
+  width:96%;
+  margin:2%;
+  background:#f1f1f1;
+  position:relative;
+}
+.content .checkbox{
+  position:absolute;
+  left:3px;
+  top:60px;
+}
+
+.content span{
+  position:absolute;
+  left:16px;
+  top:60px;
+}
+.content input[type="button"]{
+  width:92px;
+}
+.content input[type="text"]{
+  width:190px;
+}
+.content label{
+  width:85px;
+  display:inline-block;
+}
+.notepad-search-dlg .dialogbox .content .btn-rep{
+  position:absolute;
+  right:3px;
+  top:55px;
+}
+
+.notepad-search-dlg .dialogbox .content .btn-cancel{
+  position:absolute;
+  right:3px;
+  top:80px;
+}
