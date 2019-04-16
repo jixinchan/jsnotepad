@@ -1,28 +1,26 @@
 .notepad-font-dlg .dialogbox{
-
   height:533px;
-
   width:442px;
-
 }
 
 
 
 .notepad-font-dlg .dialogbox .content{
-  width:382px;
+  width:412px;
   height:473px;
-  
+  margin:15px; 
 }
 
 .notepad-font-dlg .dialogbox .content .box{
   display:flex;
-  justify-content:space-around; 
+  justify-content:space-between; 
 }
 
 .box div div{
   height:162px;
   width:95%;
   border:1px solid #666;
+  overflow-y:scroll;
 }
 .box input{
   width:95%;
