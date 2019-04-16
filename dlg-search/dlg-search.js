@@ -1,7 +1,7 @@
 /*exported $dlgSearch*/
 var $dlgSearch = (function(){
   var DOM=''
-    +'<div class="notepad-search-dlg">'
+    +'<div class="notepad-dlg notepad-search-dlg">'
     +'  <div class="dialogbox">'
     +'    <div class="titlebar">'
     +'      <p class="title">查找</p>'

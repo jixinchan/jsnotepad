@@ -1,69 +1,22 @@
-*{
-  margin:0;
-  padding:0;
-}
-body,html {
-  height:100%;
-  width:100%;
-}
-
-.notepad-font-dlg{
-  height:100%;
-  left:0;
-  position:absolute;
-  top:0;
-  width:100%;
-  z-index:10;
-}
-
 .notepad-font-dlg .dialogbox{
-  background:#eee;
-  border:1px solid ;
+
   height:533px;
-  margin:50px auto;
+
   width:442px;
-  border:1px solid #0f7fd6;
+
 }
 
-.notepad-font-dlg .dialogbox .titlebar{
-  background:#fff;
-  height:30px;
-  position:relative;
-  width:100%;
-}
 
-.notepad-font-dlg .dialogbox .titlebar .title{
-  position:absolute;
-  left:5px;
-  top:2px;
-}
-
-.notepad-font-dlg .dialogbox .titlebar .btn-close{
-  cursor:pointer;
-  height:30px;
-  position:absolute;
-  right:0px;
-  text-align:center;
-  top:0px;
-  width:30px;
-}
-
-.notepad-font-dlg .dialogbox .titlebar .btn-close:hover{
-  background:red;
-  color:#fff;
-}
 
 .notepad-font-dlg .dialogbox .content{
-  width:412px;
+  width:382px;
   height:473px;
-  background:#f1f1f1;
-  margin:15px;
-  position:relative;
+  
 }
 
 .notepad-font-dlg .dialogbox .content .box{
   display:flex;
-  justify-content:space-between;
+  justify-content:space-around; 
 }
 
 .box div div{

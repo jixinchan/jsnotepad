@@ -11,7 +11,7 @@ module.exports=function(grunt){
       options:{
         csslintrc:'.csslintrc'
       },
-      src:['dlg-*/*.css'],
+      src:['./css/common.css','dlg-*/*.css'],
     },
     eslint:{
       options:{
@@ -41,7 +41,7 @@ module.exports=function(grunt){
         dest:'dist/js/bundle.js'            
       },
       css:{
-        src:['dlg-*/*.css'],
+        src:['./css/common.css','dlg-*/*.css'],
         dest:'dist/css/bundle.css'
       }
     },

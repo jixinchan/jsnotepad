@@ -1,7 +1,7 @@
 /*exported $dlgAbout*/
 var $dlgAbout = (function(){
   var DOM=''
-    +'<div class="notepad-about-dlg">'
+    +'<div class="notepad-dlg notepad-about-dlg">'
     +'  <div class="dialogbox">'
     +'    <div class="titlebar">'
     +'      <p class="title">关于JSnotepad</p>'

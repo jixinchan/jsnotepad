@@ -1,7 +1,7 @@
 /*exported $dlgFont*/
 var $dlgFont = (function(){
   var DOM=''
-    +'<div class="notepad-font-dlg">'
+    +'<div class="notepad-dlg notepad-font-dlg">'
     +'  <div class="dialogbox">'
     +'    <div class="titlebar">'
     +'      <p class="title">字体</p>'

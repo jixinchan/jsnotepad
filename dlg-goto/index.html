@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>goto dialog test page</title>
   <link rel="stylesheet" href="dlg-goto.css">
+  <link rel="stylesheet" href="../css/common.css">
   <link rel="icon" href="https://i.wangding.in/favicon.ico" sizes="48x48" type="image/png">
 </head>
 <body>
@@ -17,7 +18,11 @@ $(function(){
   var $btnpop=$('.popbtn');
 
   $btnpop.click(function(){
-    $dlgGoto.show();
+    $dlgGoto.show({
+      curLine:4,
+      totalLine:12,
+      gotoHandler:function(e){console.log('goto btn clicked,line-num:%s',e)}
+    });
   })
 })
 </script>
